@@ -1,26 +1,32 @@
+
 /*HEADER*/
-.container-fluid{
+.container-fluid
+{
     margin: 0;
     padding:0;
 }
 
-.card-img-top {
+.card-img-top 
+{
     max-height: 220px;
-    object-fit: none;
+    object-fit: cover;
     object-position: center;
+    position: right top;
 }
 
-.card-body {
+.card-body 
+{
     background-color: #fade38;
 }
 
-.card-body h1 {
+.card-body h1 
+{
     letter-spacing: 2.4px;
     color: #13425E;
-   
 }
-.card-body p {
+
+.card-body p 
+{
     text-align: left;
-    
     color: #5e6a5e; 
 }

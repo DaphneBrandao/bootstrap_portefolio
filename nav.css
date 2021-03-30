@@ -1,3 +1,17 @@
-.pagination {
+
+.pagination >li > a  
+{
+  
+    color: #5E6A5E;
+    font-size: 14px;
     border: none;
 }
+.pagination>li:first-of-type > a 
+{
+    border: 1px solid #0B0B0B;
+  }
+
+  .pagination>li:nth-child(2) > a 
+  {
+    border-left: 1px solid #0B0B0B;
+  }
