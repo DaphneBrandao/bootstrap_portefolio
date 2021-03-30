@@ -1,0 +1,61 @@
+/*HEADER*/
+
+.container-fluid{
+    margin: 0;
+    padding:0;
+ 
+}
+.card-img-top {
+
+    max-height: 220px;
+    object-fit: none;
+    object-position: center;
+}
+
+.card-body {
+    background-color: #fade38;
+}
+
+.card-body p {
+    text-align: left;
+    color: #5e6a5e; 
+}
+
+/*FESATURES*/
+.container {
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-sm {
+    flex: 0 0 auto;
+    width: 50%;
+
+}
+ .col-sm h2 {
+   
+     color: #5E6A5E;
+     font-weight: 100;
+     font-size: 12px;
+     margin-top: 9.16px;
+ }
+
+.fa-heart {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    margin-left: 141px;
+    margin-top: 8px;
+}
+
+.col-sm p {
+
+    color: #0B0B0B;
+    font-weight: 300;
+    font-size: 12px;
+    
+}
