@@ -1,0 +1,26 @@
+/*HEADER*/
+.container-fluid{
+    margin: 0;
+    padding:0;
+}
+
+.card-img-top {
+    max-height: 220px;
+    object-fit: none;
+    object-position: center;
+}
+
+.card-body {
+    background-color: #fade38;
+}
+
+.card-body h1 {
+    letter-spacing: 2.4px;
+    color: #13425E;
+   
+}
+.card-body p {
+    text-align: left;
+    
+    color: #5e6a5e; 
+}
