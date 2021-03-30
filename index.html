@@ -11,25 +11,17 @@
     <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
     <!--CSS-->
+    <link rel="stylesheet" href="mediaqueries.css">
     <link rel="stylesheet" href="styles.css">
     <title>LVENGINE Layout</title>
 </head>
 <body>
-    <!--HEADER
-    <header class="container">
-        <div class="row"> 
-            <div class="card" width="375">
-                <img class="card-img-top" src="resources/fundo.jpg"  alt="header img">
-            </div>
-        </div>
-        <div class="row">
-        </div>
-    -->
 <div class="container-fluid">
+
        <!--HEADER CARD-->
     <header class="card">
 
-        <img class="card-img-top" src="resources/fundo.jpg" alt="Imagem de capa do card">
+        <img class="card-img-top" src="resources/fundo.jpg" alt="header image">
            
         <div class="card-body">
             <h1>Welcome</h1>
@@ -43,37 +35,50 @@
 
     <!--FEATURES-->
     <div class="container">
-        <h2>House decor / Specials   </h2>
+        <p>House decor / Specials   </p>
         
-        <div class="row">
-            <div class="col-sm">
-              
-               <img class="img-fluid imgfive" src="resources/product-5.jpg">
-               <i class="far fa-heart fa-1x"></i>
-               <h2>Balck Piani Table Lamp</h2>
+        <div class="row ">
+
+            <div class="col-sm col-md-4">
+            <i class="far fa-heart fa-1x"></i>
+               <img class="img-fluid imgfive " src="resources/product-5.jpg">
+               <h3>Balck Piani Table Lamp</h3>
                <p>258€</p>
             </div>
-            <div class="col-sm">
-                <img class="img-fluid" src="resources/product-6.jpg">
-                
-                <h2>Balck Piani Table Lamp</h2>
+
+            <div class="col-sm col-md-4">
+                <img class="img-fluid imgsix" src="resources/product-6.jpg">  
+                <h3>Balck Piani Table Lamp</h3>
                 <p>258€</p>
             </div>
-        </div>
 
-        <div class="row">
-            <div class="col-sm">
-               <img class="img-fluid" src="resources/product-7.jpg">
-               <h2>Balck Piani Table Lamp</h2>
-               <p>258€</p>
-            </div>
-            <div class="col-sm">
-                <img class="img-fluid" src="resources/product-5.jpg">
-                <h2>Balck Piani Table Lamp</h2>
+            <div class="col-sm col-md-4">
+                <img class="img-fluid img seven" src="resources/product-7.jpg">
+                <h3>Balck Piani Table Lamp</h3>
                 <p>258€</p>
-            </div>
+             </div>
+
+             <div class="col-sm col-md-4">
+                 <img class="img-fluid imgeight" src="resources/product-5.jpg">
+                 <h3>Balck Piani Table Lamp</h3>
+                 <p>258€</p>
+             </div>
+      
         </div>
 
+       
+           
+
+        <!--NAV-->
+        <nav aria-label="...">
+            <ul class="pagination pagination-lg">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">1</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+            </ul>
+          </nav>
     </div>
 
 </div>

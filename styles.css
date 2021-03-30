@@ -5,8 +5,9 @@
     padding:0;
  
 }
-.card-img-top {
 
+
+.card-img-top {
     max-height: 220px;
     object-fit: none;
     object-position: center;
@@ -18,14 +19,19 @@
 
 .card-body p {
     text-align: left;
+    
     color: #5e6a5e; 
 }
 
 /*FESATURES*/
 .container {
+    margin-top: 20px;
     max-width: 100%;
 }
-
+.container p {
+    font-weight: 100;
+    font-size: 12px;
+}
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -34,28 +40,39 @@
 .col-sm {
     flex: 0 0 auto;
     width: 50%;
-
-}
- .col-sm h2 {
+    position: relative;
    
+}
+.col-md {
+    flex: 0 0 auto;
+    width: 100%;
+    position: relative;
+   
+}
+ .col-sm h3 {
      color: #5E6A5E;
      font-weight: 100;
      font-size: 12px;
      margin-top: 9.16px;
  }
 
-.fa-heart {
-    position: absolute;
-    top: 0;
-    left: 0px;
-    margin-left: 141px;
-    margin-top: 8px;
-}
 
 .col-sm p {
-
     color: #0B0B0B;
     font-weight: 300;
     font-size: 12px;
-    
 }
+
+
+
+.img-fluid imgfive {
+    display: relative;
+    padding: 0;
+}
+.fa-heart {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 141px;
+}
+
