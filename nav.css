@@ -1,4 +1,7 @@
+nav {
+  margin-top: 20px;
 
+}
 .pagination >li > a  
 {
   
@@ -6,9 +9,12 @@
     font-size: 14px;
     border: none;
 }
+
 .pagination>li:first-of-type > a 
 {
     border: 1px solid #0B0B0B;
+    border-radius: none;
+   
   }
 
   .pagination>li:nth-child(2) > a 

@@ -2,6 +2,7 @@
 .container 
 {
     max-width: 100%;
+   
 }
 
 .container p 
@@ -11,7 +12,12 @@
     font-weight: 300;
     color: #5E6A5E;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+}
+.specials 
+{
+    color:#AC9A8B;
+    font-size: 12px;
 }
 
 .row 
@@ -27,13 +33,13 @@
 }
 
  .col-sm h3 
- {
-     color: #5E6A5E;
-     font-weight: 100;
-     font-size: 12px;
-     margin-top: 9px;
-     margin-bottom: 0;
- }
+{
+    color: #5E6A5E;
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: 9px;
+    margin-bottom: 0;
+}
 
 
 .col-sm p 
@@ -58,6 +64,5 @@
     margin-top: 8px;
     margin-right: 9px;
     font-size: 17px;
-    
-
+    color: #5E6A5E;
 }
